@@ -1,8 +1,8 @@
-Social Networking Kata
+#Social Networking Kata
 
 Implement a console-based social networking application (similar to Twitter) satisfying the scenarios below.
 
-Features
+##Features
 
 Posting: Alice can publish messages to a personal timeline
 
@@ -48,7 +48,7 @@ Bob - Damn! We lost! (2 minutes ago)
 
 Alice - I love the weather today (5 minutes ago)
 
-Details
+#Details
 
 The application must use the console for input and output.
 
