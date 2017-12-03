@@ -1,0 +1,12 @@
+[] - should be able to read user input
+    - [] Model the input to wrap the actual source and act as a publisher
+[] - should be able to map this input into a command
+[] - should be able to distinguish 4 commands
+    [] - <user> -> something : the user posting something (side effect store the post)
+    [] - <user> : fetch user's post command (side effect display those posts)
+    [] - <userA> follow <userB> : follow command to make userA "subscribe" to userB's posts
+    [] - <user> wall: fetch all the user's posts together with the ones from users he is following
+[] - should be able to store a post of a user
+[] - should be able to read the post of a user
+[] - should be able to subscribe one user to another user's post
+[] - should be able to read and merge the posts from a user and all the users she is following
