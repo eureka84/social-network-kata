@@ -1,5 +1,5 @@
-[] - should be able to read user input
-    - [] Model the input to wrap the actual source and act as a publisher
+[X] - should be able to read user input
+    - [X] Model the input to wrap the actual source and act as a publisher
 [] - should be able to map this input into a command
 [] - should be able to distinguish 4 commands
     [] - <user> -> something : the user posting something (side effect store the post)
