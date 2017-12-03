@@ -1,5 +1,6 @@
 package com.eureka.katas
 
+import com.eureka.katas.destination.Output
 import com.eureka.katas.source.InputSource
 import org.junit.Before
 import org.junit.Ignore
