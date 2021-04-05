@@ -2,24 +2,20 @@ package com.eureka.katas
 
 import com.eureka.katas.destination.Output
 import com.eureka.katas.source.InputSource
-import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.extension.ExtendWith
 import org.mockito.Mock
 import org.mockito.Mockito.verify
-import org.mockito.MockitoAnnotations
+import org.mockito.junit.jupiter.MockitoExtension
 
+@ExtendWith(MockitoExtension::class)
 class SocialNetworkTest {
 
     @Mock
     private lateinit var output: Output
     @Mock
     private lateinit var inputSource: InputSource
-
-    @BeforeEach
-    fun setUp() {
-        MockitoAnnotations.initMocks(this)
-    }
 
     @Test
     @Disabled
