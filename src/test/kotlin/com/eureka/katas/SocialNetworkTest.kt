@@ -2,16 +2,13 @@ package com.eureka.katas
 
 import com.eureka.katas.destination.Output
 import com.eureka.katas.source.InputSource
-import org.junit.Before
-import org.junit.Ignore
-import org.junit.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Disabled
+import org.junit.jupiter.api.Test
 import org.mockito.Mock
 import org.mockito.Mockito.verify
 import org.mockito.MockitoAnnotations
 
-/**
- * @author asciarra
- */
 class SocialNetworkTest {
 
     @Mock
@@ -19,12 +16,13 @@ class SocialNetworkTest {
     @Mock
     private lateinit var inputSource: InputSource
 
-    @Before
+    @BeforeEach
     fun setUp() {
         MockitoAnnotations.initMocks(this)
     }
 
-    @Test@Ignore
+    @Test
+    @Disabled
     fun shouldDisplayUserPostsWhenPassedOnlyTheUsername() {
 
         SocialNetwork(inputSource, output)

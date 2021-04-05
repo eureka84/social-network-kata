@@ -1,14 +1,12 @@
 package com.eureka.katas.source
 
-import org.junit.Before
-import org.junit.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 import org.mockito.Mock
 import org.mockito.Mockito.verify
 import org.mockito.MockitoAnnotations
 
-/**
- * @author asciarra
- */
+
 class ConsoleInputSourceTest {
 
     @Mock
@@ -18,7 +16,7 @@ class ConsoleInputSourceTest {
 
     private lateinit var inputSource: InputSource
 
-    @Before
+    @BeforeEach
     fun setUp() {
         MockitoAnnotations.initMocks(this)
         inputSource = ConsoleInputSource()
